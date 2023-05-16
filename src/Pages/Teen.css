@@ -1,0 +1,44 @@
+.quiz-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  transition: background-color 0.5s ease;
+}
+
+.question-wrapper {
+  max-width: 400px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: white;
+  animation: fade-in 0.5s ease;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.question-text {
+  margin-bottom: 20px;
+}
+
+.options-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.option-button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+ 
+}
