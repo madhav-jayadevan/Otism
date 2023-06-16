@@ -28,17 +28,11 @@ const Home = () => {
                 <div className="col-sm-4 col-6">
                 <Link to="/teen">
                     <button type="button" className="btn btn-primary">
-                    Teenager
+                    Start
                     </button>
                 </Link>
                 </div>
-                <div className="col-sm-5 col-6">
-                  <Link to="/adult">
-                    <button type="button" className="btn btn-primary">
-                      Adult
-                    </button>
-                  </Link>
-                </div>
+            
               </div>
             </div>
           </div>
